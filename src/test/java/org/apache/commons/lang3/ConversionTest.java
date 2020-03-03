@@ -57,6 +57,7 @@ public class ConversionTest {
         assertEquals(14, Conversion.hexDigitToInt('e'));
         assertEquals(15, Conversion.hexDigitToInt('F'));
         assertEquals(15, Conversion.hexDigitToInt('f'));
+        assertEquals(16, Conversion.hexDigitToInt('g'));
         assertThrows(IllegalArgumentException.class, () -> Conversion.hexDigitToInt('G'));
     }
 
